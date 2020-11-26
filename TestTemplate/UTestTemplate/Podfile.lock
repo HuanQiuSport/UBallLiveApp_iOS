@@ -1,0 +1,58 @@
+PODS:
+  - Expecta (1.0.6)
+  - KIF (3.7.11):
+    - KIF/Core (= 3.7.11)
+  - KIF/Core (3.7.11)
+  - Kiwi (3.0.0)
+  - Nocilla (0.11.0)
+  - OCHamcrest (7.1.2)
+  - OHHTTPStubs (9.0.0):
+    - OHHTTPStubs/Default (= 9.0.0)
+  - OHHTTPStubs/Core (9.0.0)
+  - OHHTTPStubs/Default (9.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.0.0)
+  - Specta (1.0.7)
+  - SwiftMonkey (2.1.1)
+
+DEPENDENCIES:
+  - Expecta
+  - KIF
+  - Kiwi (= 3.0.0)
+  - Nocilla
+  - OCHamcrest
+  - OHHTTPStubs
+  - Specta
+  - SwiftMonkey
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - KIF
+    - Kiwi
+    - Nocilla
+    - OCHamcrest
+    - OHHTTPStubs
+    - Specta
+    - SwiftMonkey
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  KIF: 927c502455cd746771c57e9b3a5123c67c7fa0b5
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
+  OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
+  OHHTTPStubs: cb29d2a9d09a828ecb93349a2b0c64f99e0db89f
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  SwiftMonkey: aea6f2707a4b7ab5277b4d2fd2f0723a083997b1
+
+PODFILE CHECKSUM: 210102c5e9313aeb45f9b93e1628f54e973e1728
+
+COCOAPODS: 1.10.0

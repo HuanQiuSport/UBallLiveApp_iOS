@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'UTestTemplate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for UTestTemplate
+
+  target 'UTestTemplateTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'OCHamcrest'
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'Nocilla'
+    pod "Kiwi",'3.0.0'
+    pod 'SwiftMonkey'
+    pod 'KIF'
+    pod 'OHHTTPStubs'
+  end
+
+  target 'UTestTemplateUITests' do
+    # Pods for testing
+  end
+
+end

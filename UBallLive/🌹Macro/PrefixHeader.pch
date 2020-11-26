@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  My_BaseProj
+//
+//  Created by Administrator on 03/06/2019.
+//  Copyright © 2019 Administrator. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DefineStructure.h"
+#import "Pods.h"
+#import "Manual_Add_ThirdParty.h"
+#import "Other.h"
+
+#endif /* PrefixHeader_pch */
